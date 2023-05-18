@@ -1,5 +1,6 @@
 logs/
 plugin/
+dist/
 node_modules/
 /public/dll/
 

@@ -4,14 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "rollup -cw",
     "commit": "cz",
     "changelog": "conventional-changelog -p custom-config -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^2.2.2",
     "conventional-changelog-custom-config": "^0.3.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "install": "^0.13.0",
+    "rollup": "^2.61.1",
+    "rollup-plugin-babel": "^4.4.0"
   },
   "keywords": [],
   "author": "",
